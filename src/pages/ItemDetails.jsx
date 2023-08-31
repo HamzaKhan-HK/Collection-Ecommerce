@@ -3,6 +3,7 @@ import Transition from "../components/Transition";
 import { useLocation } from "react-router-dom";
 import { motion } from "framer-motion";
 import { GlobalContext } from "../context/GlobalState";
+import badge from "../../assets/images/afterpay_badge.png";
 
 const ItemDetails = () => {
   const location = useLocation();
@@ -56,7 +57,7 @@ const ItemDetails = () => {
             with
           </p>
           <img
-            src="../../assets/images/afterpay_badge.png"
+            src={badge}
             loading="lazy"
             alt="Afterpay Icon"
             className="h-6 xl:pl-1 mt-2 xl:mt-0"

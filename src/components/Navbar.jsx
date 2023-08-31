@@ -1,5 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import title_logo from "../../assets/images/title.svg";
 
 export const Navbar = () => {
   return (
@@ -12,7 +13,7 @@ export const Navbar = () => {
       </div>
       <div className="flex items-center justify-center">
         <Link to="/" className="flex items-center justify-center w-64">
-          <img src="../../assets/images/title.svg" />
+          <img src={title_logo} />
         </Link>
       </div>
       <div className="flex items-center justify-end">

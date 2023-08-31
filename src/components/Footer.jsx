@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import title from "../../assets/images/title.svg";
 
 export const Footer = () => {
   return (
@@ -85,7 +86,7 @@ export const Footer = () => {
           </motion.li>
         </ul>
       </div>
-      <img src="../../assets/images/title.svg" alt="title" loading="lazy" />
+      <img src={title} alt="title" loading="lazy" />
       <div className="px-4 py-4 text-xs flex items-center justify-between">
         <p>UNITED KINGDOM</p>
         <ul className="flex gap-x-1 sm:gap-x-8 underline">

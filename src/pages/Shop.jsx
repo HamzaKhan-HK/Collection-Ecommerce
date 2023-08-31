@@ -3,6 +3,7 @@ import Transition from "../components/Transition";
 import { PRODUCTS } from "../components/Products";
 import { ItemCard } from "../components/ItemCard";
 import { motion } from "framer-motion";
+import title_header from "../../assets/images/header-text-lg.svg";
 
 const Shop = () => {
   useLayoutEffect(() => {
@@ -12,7 +13,7 @@ const Shop = () => {
     <>
       <header className="relative w-full h-screen bg-cover bg-no-repeat bg-center bg-fixed bg-[url('../../assets/gifs/michael-jordan.gif')] flex flex-col items-center justify-center">
         <img
-          src="../../assets/images/header-text-lg.svg"
+          src={title_header}
           alt="header-text"
           className="px-4 w-full lg:w-9/12"
           loading="lazy"
