@@ -17,7 +17,7 @@ html {
 
 body {
   background-color: #ecead5;
-  background-image: url(../src/assets/images/bg-image.svg);
+  background-image: url(../../assets/images/bg-image.svg);
   background-repeat: no-repeat;
   background-blend-mode: screen;
   background-attachment: fixed;
