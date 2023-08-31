@@ -1,5 +1,6 @@
 import React from "react";
 import { motion } from "framer-motion";
+import pageloader from "../../assets/images/title-light.svg";
 
 export const PageLoader = () => {
   return (
@@ -13,7 +14,7 @@ export const PageLoader = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3, duration: 1, ease: [0.22, 1, 0.36, 1] }}
-        src="../../assets/images/title-light.svg"
+        src={pageloader}
         className="w-96"
       />
     </motion.div>
