@@ -56,7 +56,7 @@ const ItemDetails = () => {
             with
           </p>
           <img
-            src="../src/assets/images/afterpay_badge.png"
+            src="../../assets/images/afterpay_badge.png"
             loading="lazy"
             alt="Afterpay Icon"
             className="h-6 xl:pl-1 mt-2 xl:mt-0"

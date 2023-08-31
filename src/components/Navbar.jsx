@@ -12,7 +12,7 @@ export const Navbar = () => {
       </div>
       <div className="flex items-center justify-center">
         <Link to="/" className="flex items-center justify-center w-64">
-          <img src="../src/assets/images/title.svg" />
+          <img src="../../assets/images/title.svg" />
         </Link>
       </div>
       <div className="flex items-center justify-end">

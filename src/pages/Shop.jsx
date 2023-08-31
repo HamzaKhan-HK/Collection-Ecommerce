@@ -10,9 +10,9 @@ const Shop = () => {
   });
   return (
     <>
-      <header className="relative w-full h-screen bg-cover bg-no-repeat bg-center bg-fixed bg-[url('../src/assets/gifs/michael-jordan.gif')] flex flex-col items-center justify-center">
+      <header className="relative w-full h-screen bg-cover bg-no-repeat bg-center bg-fixed bg-[url('../../assets/gifs/michael-jordan.gif')] flex flex-col items-center justify-center">
         <img
-          src="../src/assets/images/header-text-lg.svg"
+          src="../../assets/images/header-text-lg.svg"
           alt="header-text"
           className="px-4 w-full lg:w-9/12"
           loading="lazy"

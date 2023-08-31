@@ -13,7 +13,7 @@ export const PageLoader = () => {
         initial={{ opacity: 0 }}
         animate={{ opacity: 1 }}
         transition={{ delay: 0.3, duration: 1, ease: [0.22, 1, 0.36, 1] }}
-        src="../src/assets/images/title-light.svg"
+        src="../../assets/images/title-light.svg"
         className="w-96"
       />
     </motion.div>

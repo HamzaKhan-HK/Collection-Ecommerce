@@ -4,7 +4,7 @@ import { motion } from "framer-motion";
 export const Footer = () => {
   return (
     <div className="text-4xl">
-      <div className="w-screen h-640 bg-cover bg-no-repeat bg-center bg-[url('../src/assets/images/email-footer-bg.svg')] flex items-center justify-center">
+      <div className="w-screen h-640 bg-cover bg-no-repeat bg-center bg-[url('../../assets/images/email-footer-bg.svg')] flex items-center justify-center">
         <div className="text-light flex flex-col items-center justify-center w-full">
           <h1 className="text-base lg:text-5xl uppercase">
             Get Exclusive News & Content
@@ -85,7 +85,7 @@ export const Footer = () => {
           </motion.li>
         </ul>
       </div>
-      <img src="../src/assets/images/title.svg" alt="title" loading="lazy" />
+      <img src="../../assets/images/title.svg" alt="title" loading="lazy" />
       <div className="px-4 py-4 text-xs flex items-center justify-between">
         <p>UNITED KINGDOM</p>
         <ul className="flex gap-x-1 sm:gap-x-8 underline">
