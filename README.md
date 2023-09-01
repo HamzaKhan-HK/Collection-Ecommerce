@@ -1,5 +1,4 @@
 ## Collection
-
 A simple React.JS movie website that allows users to 
 ##
 
