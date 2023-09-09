@@ -6,7 +6,7 @@ This project was created using React.JS, Tailwind CSS, Framer Motion and Context
 The website is responsive and can be viewed in both desktop and mobile devices. All product images were taken from the Nike newsroom assets.
 
 ## Demo
-Checkout the live demo and try it for yourself: [collection-ecommerce.netlify.app/](collection-ecommerce.netlify.app/)
+Checkout the live demo and try it for yourself: [collection-ecommerce.netlify.app/](https://collection-ecommerce.netlify.app/)
 
 ## Landing Page
 <img width="1908" alt="collection header" src="https://github.com/TheHamzaDev/Collection-Ecommerce/assets/143728239/68dea62b-3633-4d69-8af9-d5e17909f631">
